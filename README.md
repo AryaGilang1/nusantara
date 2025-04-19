@@ -22,12 +22,6 @@ Pengguna yang belum login akan dialihkan secara otomatis ke halaman login. Jika 
 Manajemen Data Chart:
 Setelah login, pengguna dapat melihat data chart yang ditampilkan dengan menggunakan library seperti Chart.js. Data chart ini dapat berupa informasi seperti jumlah suara atau statistik lainnya yang diambil dari backend. Pengguna dapat menambah, mengubah, dan menghapus data chart, dengan perubahan langsung diterapkan ke database melalui API.
 
-Backend API dengan Keamanan:
-Backend akan melibatkan penggunaan token untuk memastikan setiap request yang dikirim oleh pengguna yang terautentikasi. Hanya pengguna yang memiliki token yang valid yang dapat mengakses endpoint untuk mengambil data chart, menambah data baru, atau menghapus data yang ada.
-
-Responsif dan Interaktif:
-Antarmuka pengguna dirancang agar responsif dan interaktif, menggunakan teknologi React.js untuk membangun elemen-elemen UI, dan Chart.js untuk menampilkan data chart secara dinamis. Pengguna dapat mengklik elemen chart untuk melihat detail lebih lanjut atau melakukan modifikasi.
-
 Akses Control dengan Route Guarding:
 Sistem ini menggunakan routing berbasis React untuk menjaga akses ke halaman. Jika pengguna mencoba mengakses halaman tertentu tanpa login, mereka akan diarahkan kembali ke halaman login. Setelah login berhasil, mereka akan dibawa ke halaman chart dan hanya dapat mengaksesnya jika token autentikasi mereka valid.
 
