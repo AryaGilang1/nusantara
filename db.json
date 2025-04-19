@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Red",
+      "votes": 12,
+      "backgroundColor": "#FF6384",
+      "borderColor": "#FF6384"
+    },
+    {
+      "id": "2",
+      "name": "Blue",
+      "votes": 19,
+      "backgroundColor": "#36A2EB",
+      "borderColor": "#36A2EB"
+    },
+    {
+      "id": "3",
+      "name": "Yellow",
+      "votes": 3,
+      "backgroundColor": "#FFCD56",
+      "borderColor": "#FFCD56"
+    }
+  ]
+}
